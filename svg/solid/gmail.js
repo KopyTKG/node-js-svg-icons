@@ -6,6 +6,7 @@ function Gmail(props, {width}) {
     viewBox: "0 0 25 25",
     stroke: "currentColor",
     width: props.width,
+    className: props.className,
     strokeWidth: 0.2
   }), /*#__PURE__*/React.createElement("path", {
     fill:"rgb(92.54902%,93.72549%,94.509804%)",

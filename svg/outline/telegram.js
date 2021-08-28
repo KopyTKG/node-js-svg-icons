@@ -7,6 +7,7 @@ function Telegram(props, {width}) {
     viewBox: "0 0 25 25",
     stroke: "currentColor",
     width: props.width,
+    className: props.className,
     strokeWidth: 1
   }), /*#__PURE__*/React.createElement("path", {
     d: "M 24 12 C 24 18.628906 18.628906 24 12 24 C 5.371094 24 0 18.628906 0 12 C 0 5.371094 5.371094 0 12 0 C 18.628906 0 24 5.371094 24 12 Z M 24 12 "

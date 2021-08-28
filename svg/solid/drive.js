@@ -7,7 +7,7 @@ function Drive(props, {width}) {
     viewBox: "0 0 25 25",
     stroke: "currentColor",
     width: props.width,
-    fillOpacity: 1,
+    className: props.className,
     strokeWidth: 0
   })
   , /*#__PURE__*/React.createElement("path", {

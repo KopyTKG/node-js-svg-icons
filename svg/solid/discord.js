@@ -6,6 +6,7 @@ function Discord(props, {width}) {
     viewBox: "0 0 25 25",
     stroke: "currentColor",
     width: props.width,
+    className: props.className,
     strokeWidth: 0.4
   })
   , /*#__PURE__*/React.createElement("path", {

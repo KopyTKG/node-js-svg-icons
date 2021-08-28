@@ -7,6 +7,7 @@ function Snapchat(props, {width}) {
     viewBox: "0 0 25 25",
     stroke: "currentColor",
     width: props.width,
+    className: props.className,
     strokeWidth: 1
   })
   , /*#__PURE__*/React.createElement("path", {

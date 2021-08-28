@@ -7,6 +7,7 @@ function Tiktok(props, {width}) {
     viewBox: "0 0 25 25",
     stroke: "currentColor",
     width: props.width,
+    className: props.className,
     strokeWidth: 0
   }), /*#__PURE__*/React.createElement("path", {
     fill: "rgb(94.117647%,0%,26.666667%)",
